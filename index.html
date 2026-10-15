@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя домашняя страница</title>
+
+    <!-- Подключаем шрифт с Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Шапка и меню сайта -->
+    <header>
+        <div class="container">
+            <h1>Моя домашняя страница</h1>
+            <nav>
+                <a href="#about">Обо мне</a>
+                <a href="#hobbies">Увлечения</a>
+                <a href="#schedule">Расписание</a>
+                <a href="#contacts">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Раздел с фотографией -->
+        <section id="about">
+            <h2>Обо мне</h2>
+            <div class="about-block">
+                <img src="images/study.svg" alt="Иллюстрация рабочего стола с ноутбуком">
+                <div>
+                    <p>Привет! Я студент второго курса и изучаю основы веб-разработки.</p>
+                    <p>Сейчас я учусь создавать сайты с помощью HTML и CSS. Мне интересно разбираться, как устроены веб-страницы, и постепенно делать их удобнее и красивее.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Список увлечений -->
+        <section id="hobbies">
+            <h2>Мои увлечения</h2>
+            <ul>
+                <li>Программирование и новые технологии.</li>
+                <li>Музыка и поиск новых поджанров.</li>
+                <li>Прогулки и встречи с друзьями.</li>
+                <li>Готовка своих вкуснейших блюд.</li>
+                <li>Играть в онлайн-соревновательные игры с последующей покупкой нового стола.</li>
+            </ul>
+        </section>
+
+        <!-- Простая таблица -->
+        <section id="schedule">
+            <h2>Мой план на неделю</h2>
+            <table>
+                <thead>
+                    <tr><th>День</th><th>Планы после учёбы</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Понедельник</td><td>Повторить HTML</td></tr>
+                    <tr><td>Среда</td><td>Попрактиковаться в CSS</td></tr>
+                    <tr><td>Пятница</td><td>Сделать домашние задания по лучшему предмету</td></tr>
+                    <tr><td>Воскресенье</td><td>Отдохнуть и подготовиться к новой неделе</td></tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <!-- Футер с контактами и копирайтом -->
+    <footer id="contacts">
+        <div class="container">
+            <p>Контакты: <a href="mailto:micvitalik@gmail.com">micvitalik@gmail.com</a></p>
+            <p>© 2026 Моя домашняя страница</p>
+        </div>
+    </footer>
+</body>
+</html>
